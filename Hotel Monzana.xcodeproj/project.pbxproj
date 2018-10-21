@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1B8239217C762000F18917 /* ChooseRoomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1B8238217C762000F18917 /* ChooseRoomTableViewController.swift */; };
 		1E55A3942178F7970024D2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A3932178F7970024D2E3 /* AppDelegate.swift */; };
-		1E55A3962178F7970024D2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A3952178F7970024D2E3 /* ViewController.swift */; };
 		1E55A3992178F7970024D2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E55A3972178F7970024D2E3 /* Main.storyboard */; };
 		1E55A39B2178F79F0024D2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E55A39A2178F79F0024D2E3 /* Assets.xcassets */; };
 		1E55A39E2178F79F0024D2E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E55A39C2178F79F0024D2E3 /* LaunchScreen.storyboard */; };
+		1E55A3A62178F8220024D2E3 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A3A52178F8220024D2E3 /* Registration.swift */; };
+		1E55A3A82178FFFA0024D2E3 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E55A3A72178FFFA0024D2E3 /* AddRegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E1B8238217C762000F18917 /* ChooseRoomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRoomTableViewController.swift; sourceTree = "<group>"; };
 		1E55A3902178F7970024D2E3 /* Hotel Monzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Monzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E55A3932178F7970024D2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E55A3952178F7970024D2E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E55A3982178F7970024D2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E55A39A2178F79F0024D2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E55A39D2178F79F0024D2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E55A39F2178F79F0024D2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E55A3A52178F8220024D2E3 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		1E55A3A72178FFFA0024D2E3 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				1E55A3932178F7970024D2E3 /* AppDelegate.swift */,
-				1E55A3952178F7970024D2E3 /* ViewController.swift */,
 				1E55A3972178F7970024D2E3 /* Main.storyboard */,
+				1E55A3A72178FFFA0024D2E3 /* AddRegistrationTableViewController.swift */,
+				1E55A3A52178F8220024D2E3 /* Registration.swift */,
+				1E1B8238217C762000F18917 /* ChooseRoomTableViewController.swift */,
 				1E55A39A2178F79F0024D2E3 /* Assets.xcassets */,
 				1E55A39C2178F79F0024D2E3 /* LaunchScreen.storyboard */,
 				1E55A39F2178F79F0024D2E3 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E55A3962178F7970024D2E3 /* ViewController.swift in Sources */,
+				1E55A3A82178FFFA0024D2E3 /* AddRegistrationTableViewController.swift in Sources */,
+				1E55A3A62178F8220024D2E3 /* Registration.swift in Sources */,
 				1E55A3942178F7970024D2E3 /* AppDelegate.swift in Sources */,
+				1E1B8239217C762000F18917 /* ChooseRoomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
